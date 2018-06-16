@@ -1,0 +1,33 @@
+{
+  "name": "hashed-tmp",
+  "version": "0.0.1",
+  "description": "Make a directory with a hashed name",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-hashed-tmp/issues"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "homepage": "https://github.com/nak2k/node-hashed-tmp",
+  "keywords": [
+    "tmp"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-hashed-tmp.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm t",
+    "test": "tape test/test*.js"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
